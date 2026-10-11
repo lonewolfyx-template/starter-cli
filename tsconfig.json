@@ -1,0 +1,23 @@
+{
+  "$schema": "https://www.schemastore.org/tsconfig.json",
+  "extends": [
+    "@lonewolfyx/tsconfig/tsconfig.lib.json"
+  ],
+  "compilerOptions": {
+    "ignoreDeprecations": "6.0",
+    "rootDir": "./",
+    "paths": {
+      "@": [
+        "./src"
+      ]
+    },
+    "types": [
+      "node",
+      "vitest/client",
+      "tsdown/client"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
