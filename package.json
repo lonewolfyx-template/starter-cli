@@ -2,7 +2,7 @@
   "name": "starter-cli",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@11.24.0",
+  "packageManager": "pnpm@11.28.5",
   "description": "_description_",
   "author": "lonewolfy <https://github.com/lonewolfyx>",
   "license": "MIT",
